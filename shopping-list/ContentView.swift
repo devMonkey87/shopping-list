@@ -29,7 +29,7 @@ struct ContentView: View {
             }
             
             Label("Quesitos", systemImage: "\(labelText).circle")
-                .padding(.top, 10.0)
+                .padding(.all, 10.0).font(.system(size: 40))
             
             Text("🐭") // Agrega el emoji del ratón a la derecha del Label
                 .font(.system(size: 100))
@@ -39,7 +39,7 @@ struct ContentView: View {
         
         
         .frame(width: 500, height: 1000) // repasar cuantos son las constantes que puedo usar
-        .background(Color.blue)
+        .background(Color.mint)
     }
     
 }
